@@ -4,8 +4,7 @@ import numpy as np
 from openai import OpenAI
 
 # Initialize the OpenAI client
-client = OpenAI(api_key="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")
-
+client = 
 # Open and read the JSON file
 with open('processed_river_names.json', 'r') as file:
     data = json.load(file)
