@@ -1,0 +1,25 @@
+# Exclude the .streamlit directory
+.streamlit/
+
+# Exclude Python cache directories
+__pycache__/
+*.py[cod]
+
+# Exclude other typical Python artifacts
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.eggs/
+*.env
+.env/
+*.venv
+.venv/
+*.pytest_cache/
+.pytest_cache/
+*.coverage
+.coverage.*
+.cache/
+*.log
+*.sql
+

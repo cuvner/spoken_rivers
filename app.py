@@ -2,9 +2,16 @@ import json
 import pyaudio
 import numpy as np
 from openai import OpenAI
+from dotenv import load_dotenv
 
 # Initialize the OpenAI client
-client = 
+
+
+load_dotenv()
+
+client = openai.OpenAI(
+    api_key=os.environ["OPENAI_API_KEY"]
+)
 # Open and read the JSON file
 with open('processed_river_names.json', 'r') as file:
     data = json.load(file)
